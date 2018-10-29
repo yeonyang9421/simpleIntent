@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".FirstActivity"
+    android:background="@color/colorlightBlue">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Activity"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+
+    <Button
+        android:id="@+id/buttonFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GoTo Second Scene"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/buttonMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Goto Main"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="300dp"/>
+</LinearLayout>
